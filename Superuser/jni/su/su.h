@@ -39,7 +39,7 @@
 #define AID_RADIO (get_radio_uid())
 #endif
 
-// CyanogenMod-specific behavior
+// CyanogenMod, MoKee OpenSource-specific behavior
 #define CM_ROOT_ACCESS_DISABLED      0
 #define CM_ROOT_ACCESS_APPS_ONLY     1
 #define CM_ROOT_ACCESS_ADB_ONLY      2
@@ -55,7 +55,7 @@
 #define REQUESTOR JAVA_PACKAGE_NAME
 #endif
 // This is used if wrapping the fragment classes and activities
-// with classes in another package. CM requirement.
+// with classes in another package. MK requirement.
 #ifndef REQUESTOR_PREFIX
 #define REQUESTOR_PREFIX JAVA_PACKAGE_NAME
 #endif
